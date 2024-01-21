@@ -1,0 +1,1 @@
+React app developed with scrollReveal, smooth scrolling and a couple of mui icons

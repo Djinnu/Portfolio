@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Nanum+Pen+Script&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.navlink {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.navlinkActive {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.icons:visited {
+  color: #1976d2;
+}
+
+nav {
+  display: flex;
+  height: 64px;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  z-index: 20;
+}
+
+header, .home {
+  background-color: #5361ff;
+  width: 100%;
+}
+
+h1 {
+  color:antiquewhite;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.home p {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.colored-span {
+  color:white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.home {
+  height: 75vh;
+}
+
+.banner-img {
+  display: block;
+  position: relative;
+  right: 20%;
+}
+
+.section-title {
+  margin-bottom: 3rem;
+  position: relative;
+  text-align: center;
+  margin: 2rem 0;
+  color: #2a3b47;
+  font-size: 32px;
+}
+
+.section-title::after {
+  font-weight: 700;
+  top: 3rem;
+  width: 64px;
+  position: absolute;
+  content: "";
+  height: .18rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #5361ff;
+}
+
+section {
+  padding-top: 4rem;
+}
+
+.about-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem;
+}
+
+.about-me {
+  width:60%;
+}
+
+.about-me > h2 {
+  color:#5361ff;
+}
+
+.about-me > p {
+  color: #697477;
+  margin-top: 2rem;
+}
+
+.skill {
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  color: #697477;
+  margin: 2rem 0;
+}
+
+.skill:hover {
+  background-color: #5361ff;
+  color:white;
+}
+
+.skill-section {
+  display:flex; 
+  width: 60%; 
+  margin: 0 auto;
+}
+
+.skills-container {
+  max-width: 60%;
+  padding-top: 4rem;
+}
+
+.skill-img-container {
+  margin: 100px 0 0 150px;
+}
+
+h3 {
+  color: #5361ff;
+}
+
+article {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.base {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  transition: .5s ease-in-out;
+  object-fit: cover;
+}
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .5s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+}
+
+.projects {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+article:hover .overlay {
+  opacity: 1;
+}
+
+article:hover .base {
+  opacity: 0.3;
+}
+
+.button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #5361ff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.portfolio-list-item {
+  padding: 5px 10px;
+  font-size: 15px;
+  color:rgb(128, 128, 128);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.tools-used {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  margin: 15px auto;
+}
+
+.learn-more {
+  font-family: 'Nanum Pen Script';
+  font-size: 21px;
+  color:#5361ff;
+  margin: 5rem 0 3rem 0;
+}
+
+.section-container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.contact-form {
+  width: 55%;
+}
+
+.contact-information {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact-information > p {
+  color: #697477;
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.contact-information > h2 {
+  color:#5361ff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #8087d8;
+  border-radius: 5px;;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.send {
+  cursor: pointer;
+  border:1px solid #5361ff;
+  padding: 10px 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #5361ff;
+  color: white;
+}
+
+.send:hover {
+  background-color: white;
+  color:#5361ff;
+}
+
+.footer-message {
+  text-align: center;
+  padding: 1rem;
+  background-color: #5361ff;
+  color:white;
+}
+
+.project-div {
+  width: 30%;
+}
+
+
+@media (max-width: 1366px) {
+  .home-container, .about-container, .skill-section, .section-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  nav {
+    width: 80%;
+  }
+  .banner-img {
+    position: static;
+  }
+  .about-me {
+    width: 55%;
+    text-align: justify;
+  }
+  .projects {
+    justify-content: space-around;
+  }
+  .project-div {
+    width: 40%;
+  }
+}
+
+@media(max-width: 800px ) {
+  nav {
+    width: 80%
+  }
+  .banner-img {
+    position: static;
+  }
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+  }
+
+  .about-img-container  {
+    width: 40%;
+  }
+}
+
+@media(max-width: 360px ) {
+  nav {
+    width: 100%;
+    justify-content: space-around;
+  }
+  nav > a {
+    display: none;
+  }
+  ul {
+    gap: 1rem;
+  }
+  .banner-img {
+    display: none;
+  }
+  .about-container {
+    flex-wrap: wrap;
+  }
+  .about-me, .skill-section {
+    width: 100%;
+  }
+  .skill-img-container {
+    display: none;
+  }
+  .project-div {
+    width: 100%;
+  }
+  .contact-container {
+    font-display: flex;
+    flex-wrap: wrap;
+  }
+  .contact-information, .contact-form {
+    width: 100%;
+  }
+}
