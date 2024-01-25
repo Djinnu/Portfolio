@@ -38,7 +38,7 @@ const Contact = () => {
                 </ul>
             </div>
             <div className='contact-form'>
-                <form method="POST" action="https://formsubmit.co/dzinnu.hunt@gmail.com">
+                <form method="POST" action="14be38905c0493b8dc24d63533a3c329">
                     <input ref={input1Ref} name='name' type='text' placeholder='name' required/>
                     <input ref={input2Ref} name='email' type='email' placeholder='email' required/>
                     <textarea ref={textRef} name='message' placeholder='message'></textarea>
