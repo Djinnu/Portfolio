@@ -36,14 +36,14 @@ const projects = [{
   img: '/images/blog.jpg',
   info: 'Simple blog demonstration built with Next.js',
   tools: ['Next.js', 'CSS', 'gray-matter'],
-  lifeUrl: 'https://nextjs-blog-bxi4l1uve-djinnu.vercel.app/',
+  liveUrl: 'https://nextjs-blog-bxi4l1uve-djinnu.vercel.app/',
   github: 'https://github.com/Djinnu/nextjs-blog',
 }, {
   title: 'Stopwatch',
   img: '/images/stopwatch.jpg',
   info: 'Elegantly styled stopwatch application',
   tools: ['React', 'CSS'],
-  lifeUrl: 'https://djinnu-stopwatch.netlify.app/',
+  liveUrl: 'https://djinnu-stopwatch.netlify.app/',
   github: 'https://github.com/Djinnu/React-Stopwatch'
 }]
 
