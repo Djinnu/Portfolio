@@ -36,7 +36,7 @@ const projects = [{
   img: '/images/blog.jpg',
   info: 'Simple blog demonstration built with Next.js',
   tools: ['Next.js', 'CSS', 'gray-matter'],
-  liveUrl: 'https://nextjs-blog-bxi4l1uve-djinnu.vercel.app/',
+  liveUrl: 'https://nextjs-blog-gamma-nine.vercel.app/',
   github: 'https://github.com/Djinnu/nextjs-blog',
 }, {
   title: 'Stopwatch',
