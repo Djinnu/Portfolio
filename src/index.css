@@ -412,6 +412,7 @@ textarea {
   }
   .project-div {
     width: 100%;
+    margin-bottom: 1rem;
   }
   .contact-container {
     font-display: flex;
