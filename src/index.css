@@ -380,13 +380,17 @@ textarea {
 @media(max-width: 360px ) {
   nav {
     width: 100%;
-    justify-content: space-around;
   }
   nav > a {
     display: none;
   }
   ul {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-around;
     gap: 1rem;
+    width: 100%;
+    font-size: 13px;
   }
   .banner-img {
     display: none;
@@ -397,8 +401,14 @@ textarea {
   .about-me, .skill-section {
     width: 100%;
   }
+  .skill-section {
+    padding: 0 0.5rem;
+  }
   .skill-img-container {
     display: none;
+  }
+  .projects {
+    gap: 1rem;
   }
   .project-div {
     width: 100%;
